@@ -72,3 +72,39 @@ html {
     padding-bottom: 25px;
 
   }
+
+  @media screen and (max-width: 768px) {
+    .quoteSpace {
+      margin-left: 14em;
+      
+    }
+    .bobo {
+      text-align: center;
+    }
+    
+    .button {
+     text-align: center;
+    }
+  
+  }
+
+  @media screen and (max-width: 425px) {
+    .quoteSpace {
+      margin-left: 5em;
+      margin-right: 50em;
+      
+      
+    }
+    .option {
+      font-size: 14px;
+    }
+    .bobo {
+      text-align: center;
+      font-size: 8px;
+    }
+    
+    .button {
+     text-align: center;
+    }
+  
+  }
